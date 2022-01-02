@@ -1,8 +1,9 @@
-module github.com/mercadolibre/app-nubank-routine-start-watch-email
+module app-nubank-routine-start-watch-email
 
 go 1.16
 
 require (
-	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
+	github.com/GoogleCloudPlatform/functions-framework-go v1.5.2
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.63.0
 )
